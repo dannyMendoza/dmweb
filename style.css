@@ -1,0 +1,37 @@
+body {
+    font-size: 12pt;
+    font-family: system-ui;
+    color: #000000;
+    background-color: #ebf0f2;
+    padding-left: 10pt;
+    padding-right: 10pt;
+    padding-top: 8pt;
+    border: 2pt;
+    border-style: none;
+    border-color: #17a115;
+    border-radius: 8pt;
+    /*
+     * border: 4pt solid #17a115;
+     * When using border the expected border style and color
+     * are expected to be declared in same line;
+     */
+}
+
+h1 {
+    font-size: 20pt;
+    font-family: system-ui;
+    color: #0E77EE;
+}
+
+img {
+    padding: 5pt;
+    float: center;
+}
+
+a:link, a:visited {
+    color: #4c708a;
+}
+ a:hover, a:active {
+     color: #0363ff;
+     font-weight: bold;
+ }
